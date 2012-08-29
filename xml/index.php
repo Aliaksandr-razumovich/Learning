@@ -13,7 +13,6 @@
 		 <div><input type = 'text' name = 'last_name' id = 'last_name'></div>
 		 <div>Age</div>
 		 <div><input type = 'text' name = 'age' id = 'age'></div>
-		 <div><input type = 'submit' value = 'submit'></div>
 		 <div><input type = 'button' id = 'button1' value = 'Export data to XML'></div>
 		 <div><input type = 'button' id = 'button2' value = 'Import data from XML'></div>
 	  </form>
