@@ -1,0 +1,1 @@
+The task is to create simple XML parser. The user should have a possibility to export/import data.
