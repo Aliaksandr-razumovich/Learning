@@ -6,7 +6,7 @@
    </head>
    <body>
        <div id = 'message'></div>
-      <form name = 'form1' method = 'post' action = 'export_data.php'>
+      <form name = 'form1'>
 	     <div>Name</div>
 		 <div><input type = 'text' name = 'name' id = 'name'></div>
 		 <div>Last name</div>
