@@ -4,7 +4,7 @@
 		
        //creating 2 arrays. The first one will contain amount of items. The second one - their names
         while(!feof($file)){
-           $line = fgets($file, 30);
+           $line = trim(fgets($file, 30));
            $array = explode(" ", $line);
            $number .= $array[0]." ";
            $name   .= $array[1]." ";
