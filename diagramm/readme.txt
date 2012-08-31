@@ -1,0 +1,1 @@
+The task is to create a diagramm from the data in 'data.dat' file
