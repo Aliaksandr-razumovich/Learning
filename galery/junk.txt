@@ -1,0 +1,49 @@
+album.php?id=".$photoID."
+?photoID=".$photoID."
+<script src = 'popup.js'></script>
+
+
+$(document).ready(function(){
+        $('.album').click(function(){
+						   
+          CenterPhotoPreview() 
+          ShowPhotoPreview()
+		   
+          resizePhotoPreviewPosition()
+          //$('#main').attr("disabled", "disabled");
+          
+          $("#close_photo_preview").click(function(){
+              //$("#button").removeAttr("disabled");
+              $("#photo_preview").fadeOut(3);
+			  $("#main").fadeOut(3);
+            });  
+       });     
+});
+
+function resizePhotoPreviewPosition()
+{
+    $(window).resize(function(){
+        popupCenter();
+     });
+}   
+        
+        
+function ShowPhotoPreview()
+{
+    $("#photo_preview").fadeIn(3);
+	$("#main").fadeIn(3);
+}
+
+function CenterPhotoPreview()
+{
+
+var windowWidth =    document.documentElement.clientWidth;//document.body.offsetWidth;//window.innerWidth;//document.body.clientWidth;
+var windowHeight =   document.documentElement.clientHeight;//window.innerHeight;//document.body.clientHeight;  
+var popupHeight = $("#photo_preview").height();  
+var popupWidth = $("#photo_preview").width();   
+$("#photo_preview").css({  
+"position": "absolute",  
+"top": windowHeight/2 - popupHeight/2,  
+"left": windowWidth/2 - popupWidth/2   
+});
+}
