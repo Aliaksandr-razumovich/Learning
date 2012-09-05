@@ -1,0 +1,2 @@
+         <?php echo "<div align = 'center'><input type = 'hidden' name = 'photoID' value = '".$photoID."'></div>";?>
+         <?php echo "<div align = 'center'><input type = 'hidden' name = 'user' value = '".$id."'></div>";?>
