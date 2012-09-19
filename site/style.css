@@ -1,0 +1,117 @@
+#main_container{
+   width:            900px;
+   height:           700px;
+   margin-left:      auto;
+   margin-right:     auto;
+}
+
+
+#header{
+   /*display:          none;*/
+   width:            900px;
+   height:           150px;
+   background-color: DCDCDC;
+   margin-left:      auto;
+   margin-right:     auto;
+         border:           1px;
+   border-radius:    20px 20px 20px 20px;
+   -moz-border-radius: 20px 20px 20px 20px;
+   -webkit-border-bottom-left-radius: 20px;
+   -webkit-border-bottom-right-radius: 20px;
+   -khtml-border-radius: 20px 20px 20px 20px;
+   
+   
+}
+
+
+#right_slidebar{
+   width:            200px;
+   height:           700px;
+   background-color: white;
+   overflow:         no-display;
+   padding-right:      20px;
+
+}
+
+
+#left_slidebar{
+   width:            100%;
+   height:           100%;
+   background-color: DCDCDC;
+  
+   border:           1px;
+   border-radius:    20px 20px 20px 20px;
+   -moz-border-radius: 20px 20px 20px 20px;
+   -webkit-border-bottom-left-radius: 20px;
+   -webkit-border-bottom-right-radius: 20px;
+   -khtml-border-radius: 20px 20px 20px 20px;
+ 
+}
+
+#slidebars{
+   width: 900px;
+   padding-top:      20px;
+   padding-bottom:      20px;
+   overflow:       hidden;
+}
+
+
+#footer{
+   width:            900px;
+   height:           30px;
+   background-color: DCDCDC;
+      border:           1px;
+   border-radius:    20px 20px 20px 20px;
+   -moz-border-radius: 20px 20px 20px 20px;
+   -webkit-border-bottom-left-radius: 20px;
+   -webkit-border-bottom-right-radius: 20px;
+   -khtml-border-radius: 20px 20px 20px 20px;
+   
+}
+
+
+#login_container{
+   width:            200px;
+   height:           150px;
+   background-color: DCDCDC;
+   border:           1px;
+   border-radius:    20px 0 20px 0;
+   -moz-border-radius: 20px 0 20px 0;
+   -webkit-border-bottom-left-radius: 20px;
+   -webkit-border-bottom-right-radius: 0;
+   -khtml-border-radius: 20px 0 20px 0;
+}
+
+#main_menu{
+      width:            200px;
+   height:           150px;
+   background-color: DCDCDC;
+   border:           1px;
+   border-radius:    20px 0 20px 0;
+   -moz-border-radius: 20px 0 20px 0;
+   -webkit-border-bottom-left-radius: 20px;
+   -webkit-border-bottom-right-radius: 0;
+   -khtml-border-radius: 20px 0 20px 0;
+
+}
+
+
+.label{
+   text-align:       center;
+}
+
+.login_password_fiels{
+   text-align:       center;
+}
+
+#login_link{
+   text-align:       center;
+}
+
+#register_link{
+   text-align:       center;
+}
+
+#news_title{
+   font-weight:   bold;
+}
